@@ -1,0 +1,35 @@
+.vertical-center {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.row {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.exam-login {
+	width: 350px;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #cfdeee;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.bottom {
+	margin: 8px auto 0 auto;
+	width: 20%;
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	padding-bottom: 8px;
+	color: #000000;
+	word-spacing: 3px;
+	zoom: 1;
+}
